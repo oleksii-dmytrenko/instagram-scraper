@@ -1,0 +1,26 @@
+{
+  "name": "instagram-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes data from instagram page",
+  "main": "index.js",
+  "prettier": {
+    "trailingComma": "all"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "instagram",
+    "scraper",
+    "profile"
+  ],
+  "author": "Oleksii Dmytrenko",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "inquirer": "^6.2.0",
+    "node-fetch": "^2.2.0",
+    "prettier": "^1.14.3"
+  }
+}
